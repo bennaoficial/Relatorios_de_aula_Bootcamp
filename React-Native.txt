@@ -1,0 +1,256 @@
+React Native:
+________________________________________________________________________________
+resumo de aulas:
+
+AULA 01_06 - DIA 03/10/2022 - Instalações e configurações de pacote (explicações)
+AULA 02_06 - DIA 04/10/2022 - Configurações de telefone e Android Studio Code (muitos problemas)
+AULA 03_06 - DIA 05/10/2022 - Inicio do Projeto Pomodoro
+AULA 04_06 - DIA 06/10/2022 - aula mais imporante (onde tudo acontece)
+AULA 05_06 - DIA 10/10/2022 - Aula na segunda metade
+AULA 06_06 - DIA 11/10/2022 - finalização de detalhe da imagem doo projeto
+
+________________________________________________________________________________
+
+
+AULA 01_06 - DIA 03/10/2022
+
+ inicio React Native
+
+Instalações e Configurações:
+
+- começa no tempo 23:00
+- npm create-expo-app
+- npm install --global explo-cli
+- npx create-expo-app . 
+     [- npx create-expo-app meu-primeiro-projeto ( - se quiser criar uma pasta) ] - 
+	{linha do tempo - 28:00}
+- Explicação de como funciona o react native
+	{linha do tempo 32:00 - 35:00}
+- npm run web (thiago tem problema)
+	- O próprio Terminal manda rodar um comando para instalação...
+	- npm expo install react-native-web@~0.18.7 react-dom@18.0.0 @expo/webáck-config@^0.17.0
+- fala da instalação do Android Studio Code ou do Xcode
+	{linha do tempo 35:00}
+-agora sim: npm rum web
+	{linha do tempo 40:00}
+
+- começa a escrever o basico
+	- meu primeiro app native
+	{linha do tempo 42:00}
+- control c para parar o programa
+	{linha do tempo 44:00}
+- vai tentar emular imaginando que vai ter problema
+	- npm run android
+	- deu problema. erro adb (comum)
+- instalar o Android Studio Code
+	{linha do tempo 47:00}
+- instalar os pacotes adicionais
+	- dentro do Android Studio Code (ASC) - acessar menu- tools/ sdk manager
+	{linha do tempo 52:00}
+- consertando o caminho adb
+	{linha do tempo 1:05:00 - 1:17:00}
+- intervalo 10 min
+	{linha do tempo 1:19:00}
+- volta a aula
+	{linha do tempo 1:33:00}
+- Falando sobre o download do Android Studio
+	- baixar o java JDK
+- mostrando o readm de configuraçoes
+	{linha do tempo 1:42:00 - ate o final}
+
+________________________________________________________________________________
+
+ 
+AULA 02_06 - DIA 04/10/2022
+	Configuração final e começo das cirações das paginações e menu
+
+- incio da aula
+ 	{linha do tempo 29:00}
+	- começa resolvendo um probleminha de reconhecimento do emulador android
+- npm run android
+	{linha do tempo 40:00}
+
+- npm start 
+	{linha do tempo 45:00}
+ - Material UI no Native
+	- npm install @react-native-material/core
+- importando MUI para o projeto
+	{linha do tempo 47:00}
+- codando...
+	- criando as page( paginas 2 e 3)
+	- criando a home (pagina 1)
+	- Importando o Navigation Container
+ - instalando 2 libs
+	- npm install @react-navigation/native @react-navigation/native-stack
+	{linha do tempo 54:00}
+- npm start
+- codando - criando a pagina home, compontente e a rota
+	{linha do tempo 56:00}
+- resolvendo erro
+	{linha do tempo 1:00:00}
+  	{linha do tempo 1:04:00} resolução
+- Criando as outras rotas
+	{linha do tempo 1:08:00}
+ - codando...
+ - instalando..
+	- npm @react-navigation/bottom-tabs
+	{linha do tempo 1:21:00}
+- npm start
+	-codando...
+- função switch
+	{linha do tempo 1:30:30}
+- Drawer Navigation
+	{linha do tempo 1:35:00}
+	- npm install @react-navigation/dawer
+	{linha do tempo 1:39:00}
+- npm start
+	- erros - 
+	- npm cache clean --force (para tentar corrigir os erros)
+	{linha do tempo 1:42:00}
+- npm start
+- criação do logn.js
+	{linha do tempo 1:44:00}
+- usando Material Icons
+	{linha do tempo 1:46:00}
+- codando...
+- mudança do nome dasrotas paginas para internal, profile,
+	{linha do tempo 1:56:00}
+- resolvendo erros-
+	{linha do tempo 1:56:00 - 2:06:00} 
+
+________________________________________________________________________________
+
+
+AULA 03_06 - DIA 05/10/2022
+	COMEÇANDO PROJETO!!
+Pomodoro, criação do Login e funcionalidades do Login
+
+- inicio aula
+	{linha do tempo 27:00}
+- incrementando o package.json
+	{linha do tempo 30:00}
+- npm install (instala tudo o q foi configurado e alterado no package.json)
+	{linha do tempo 32:00}
+- criação da Pasta Util
+	- criação do Auth.js
+	- criação do Storage.js
+	{linha do tempo 32:30}
+- codando...
+	{linha do tempo 33:00}
+- criação da pasta Pages
+	- criação do Login.js
+	- criação do Register.js
+	- criação do Profiler.js
+	- criação do Home.js
+	{linha do tempo 39:00}
+- npm start 
+	{linha do tempo 40:00}
+- criação das rotas
+	{linha do tempo 42:00}
+- criação do menu
+	{linha do tempo 50:00}
+- material UI / icon
+	{linha do tempo 1:04:00}
+- Codando Login.js
+- firebase
+	-npm install firebase	
+	{linha do tempo 1:29:00}
+- codando Login.js / Register.js
+	{linha do tempo 1:38:00}
+- Auth.js
+	{linha do tempo 1:47:00}
+- fim
+	{linha do tempo 1:21:00}
+
+
+________________________________________________________________________________
+
+
+AULA 04_06 - DIA 06/10/2022
+	Paginas Login e Home do Pomodoro
+
+- Início Aula
+	{linha do tempo 26:00}
+- yarn global add expo-cli
+	-npm install --global yarn // se nao tiver yarn)
+- adicionar yarn/bin na path 
+	{linha do tempo 34:30}
+- expo install expo-notifications
+- yarn add expo-notifications
+- install expo-permissions
+	{linha do tempo 41:00}
+- npm start
+	{linha do tempo 44:20}
+-correção safety area:
+	- yarn add react-native-safe-area-view react-native-safe-area-context
+	{linha do tempo 47:00}
+- npm start
+- criação na pasta Util
+	- criação do User.js
+- codando...
+- snackbar -  react native material
+	{linha do tempo 1:31:00}
+- Começando pagina Home
+	{linha do tempo 1:40:00}
+- fim de aula 
+	{linha do tempo 2:07:00}
+
+________________________________________________________________________________
+
+
+AULA 05_06 - DIA 10/10/2022
+	Finalização pagina Home e acerto de paginas login e perfil
+
+- Elberth fala no inicio e discussoes com thiago sobre trabalho...
+
+- inicio de aula
+	{linha do tempo 1:01:00}
+
+- acertando telefone
+	{linha do tempo 1:05:00}
+- intervalo 10 min
+	{linha do tempo 1:17:00 - 1:27:00}
+- explicação da camera da foto do perfil
+	{linha do tempo 1:30:00}
+- criação na pasta Util
+	- image.js
+	{linha do tempo 1:37:00}
+- resolvendo problema no storage.js
+	{linha do tempo 2:00:00}
+- dando um novo npm install ra resolver bugs
+	{linha do tempo 2:02:00}
+- analizando fatal error no app
+	{linha do tempo 2:05:00}
+ - npm i @firebase/storage --save
+	{linha do tempo 2:07:00}
+	- npm start
+- ainda anaizando erro
+	{linha do tempo 2:09:00}
+- excluindo pasta node_modules
+	- npm install de novo
+	{linha do tempo 2:11:00}
+- npm cache clean -force
+- voltando e finalizando o dia
+	{linha do tempo 2:15:00}
+
+
+________________________________________________________________________________
+
+
+AULA 06_06 - DIA 11/10/2022
+	Finalização do App na primeira meia hora
+	inicio do node express no segundo tempo
+
+- Inicio da aula
+	{linha do tempo 25:00}
+	- codando no profile.js
+	- acertando o upload da imagem de foto.
+	- usando regex
+- Acertando storage.js
+	{linha do tempo 35:00}
+- Acertando os endereços da imagem ate agora.
+ 	finaliza em 
+	{linha do tempo 42:00}
+- postando o projeto pronto no Git
+	{linha do tempo 42:00}
+- FIM DO PROJETO
